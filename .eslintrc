@@ -1,0 +1,53 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "globals": {
+    "__ENV__": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
+    "comma-dangle": [0, "never"],
+    "indent": [2, 2, { "SwitchCase": 1 }],
+    "no-constant-condition": 2,
+    "semi": [2, "always"],
+    "no-unused-vars": 1,
+    "no-underscore-dangle": 0,
+    "keyword-spacing": [2],
+    "space-before-blocks": [2, "always"],
+    "strict": [2, "never"],
+    "quotes": [1, "single"],
+    "no-debugger": 1,
+    "no-unreachable": 2,
+    "dot-location": [2, "property"],
+    "no-duplicate-case": 2,
+    "no-extra-semi": 2,
+    "eqeqeq": 2,
+    "no-undef": 2,
+
+    "react/jsx-curly-spacing": [0, "always"],
+    "react/jsx-no-duplicate-props": 2,
+    "react/jsx-no-undef": 2,
+    "react/jsx-quotes": 0,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/jsx-closing-bracket-location": [2, "after-props" ],
+    "react/no-did-mount-set-state": 2,
+    "react/no-did-update-set-state": 2,
+    "react/no-multi-comp": 0,
+    "react/no-unknown-property": 2,
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": 2,
+    "react/self-closing-comp": 2,
+    "react/sort-comp": 0,
+    "react/jsx-no-bind": 0
+  }
+}
